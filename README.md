@@ -31,5 +31,10 @@ The app is structured according to the Clean Architecture principles, which divi
    ```bash
    cd [project_directory]
 3. Get the dependencies:
-```bash
-  flutter pub get
+   ```bash
+   flutter pub get
+## Features
+- Fully responsive design implementation based on the provided Figma link.
+## Notes
+- The project adheres to Flutter best practices and clean architecture principles to maintain code readability and scalability.
+- The app has been tested thoroughly on both Android and iOS simulators to ensure cross-platform compatibility.
