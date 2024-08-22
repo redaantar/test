@@ -1,0 +1,56 @@
+{
+    "statusSummary": [
+      {
+        "icon": "eye",
+        "count": 150,
+        "label": "My observations"
+      },
+      {
+        "icon": "pause",
+        "count": 4,
+        "label": "Pending"
+      },
+      {
+        "icon": "clock",
+        "count": 1,
+        "label": "Progress"
+      },
+      {
+        "icon": "checkmark",
+        "count": 2,
+        "label": "Resolved"
+      },
+      {
+        "icon": "lock",
+        "count": 1,
+        "label": "Closed"
+      }
+    ],
+    "observationsChart": {
+      "title": "My observations",
+      "subtitle": "Statistics",
+      "data": [
+        {"day": 18, "count": 2},
+        {"day": 19, "count": 4},
+        {"day": 20, "count": 2},
+        {"day": 21, "count": 5},
+        {"day": 22, "count": 0},
+        {"day": 23, "count": 2},
+        {"day": 24, "count": 4},
+        {"day": 25, "count": 8},
+        {"day": 26, "count": 2},
+        {"day": 27, "count": 0},
+        {"day": 28, "count": 4}
+      ]
+    },
+    "progressChart": {
+      "title": "Progress",
+      "subtitle": "Today",
+      "data": [
+        {"status": "Pending", "color": "blue", "value": 10},
+        {"status": "Progress", "color": "orange", "value": 8},
+        {"status": "Resolved", "color": "green", "value": 5},
+        {"status": "Closed", "color": "gray", "value": 3}
+      ]
+    }
+  }

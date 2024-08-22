@@ -1,0 +1,56 @@
+name: test_project
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  # charts
+  fl_chart: ^0.68.0
+  # Beautiful Icons
+  iconsax: ^0.0.8
+  # lottie animations
+  lottie: ^3.1.2
+  # dartz to use Either
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  # state management
+  provider: ^6.1.2
+  # splash screen
+  flutter_native_splash: ^2.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/mocks/overview_data.json
+    - assets/lottie/
+    - assets/images/
+    - assets/icons/
+
+# splash screen configuration
+flutter_native_splash:
+  android: true
+  ios: true
+  background_image: "assets/images/background.png"
+  image: "assets/icons/x_logo.png"
+  branding: "assets/icons/branding.png"
+
+  android_12:
+    color: "#42a5f5"
+    image: "assets/icons/x_logo.png"
+    branding: "assets/icons/branding.png"
