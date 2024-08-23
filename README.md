@@ -26,7 +26,7 @@ The app is structured according to the Clean Architecture principles, which divi
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [repository_link]
+   git clone https://github.com/redaantar/test.git
 2. Navigate to the project directory:
    ```bash
    cd [project_directory]
