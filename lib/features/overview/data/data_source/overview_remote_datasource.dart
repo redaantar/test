@@ -1,5 +1,5 @@
 // this remote data source is responsible for fetching data from the server
-// but this is just a dummy data source to show how you can use a local data source
+// but this is just a dummy data source to show how you can use a remote data source
 // we are using a local json file to fetch data
 
 import 'dart:convert';
